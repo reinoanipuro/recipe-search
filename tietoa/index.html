@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+
+<head>
+    <!--Tässä head osiossa on otsikko, responsiivisuuden yksi osa, sekä linkit style sivulle sekä fontille.-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Reino Anipuro" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tervetuloa Resepti Kellariin</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <a href="../index.html">Resepti Kellari</a>
+        </div>
+        <nav id="hamnav">
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger" />
+            <ul id="hamitems">
+                <!--tässä on lista jossa on linkkejä eri sivustoilleni-->
+                <li><a href=../index.html>Etusivulle</a></li>
+                <li><a href=../resepti/index.html>Resepti hakukone</a></li>
+                <li><a href="index.html#footer" onClick="highlight(document.getElementById('footer'));">Yhteystiedot</a>
+                </li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section id="hero-banner">
+            <div class="container">
+                <h1>Tervetuloa Resepti Kellarin nettisivuille</h1>
+                <br>
+                <p>
+                    Ruokakauppojen kasvaessa ja valikoiman lisääntymässä, uudenlaiset reseptit tulevat mahdollisiksi. 
+                    Meistä tuntui, että ihmiset eivät tiedä mitä kaikilla ainesosilla voi saada aikaan. 
+                    Välillä itsellämmekin on vaikeaa keksiä mitä tänään tekisi ruuaksi, koska samat ruuat alkavat tympiä. 
+                    Nykyään on olemassa mm. Mitä tänään syötäisiin?-ohjelma, 
+                    mutta siinä ei aina oteta huomioon niitä ihmisiä joilla on jokin allergia tai ovat esim. vegaaneja.
+                </p>
+                
+                <p> Lähdimme näiden tietojen perusteella pohtimaan, että miten tilannetta voisi parantaa ja saimme idean sovelluksesta,
+                     jossa itse valitaan proteiinin lähde ja hiilarien lähde. 
+                    Sovellus tämän jälkeen ehdottaa erilaisia reseptejä joiden ainesosat olisivat saatavilla lähistön ruokakaupoista. 
+                    Käyttäjä voi myös klikata vegaaninen, gluteeniton, laktoositon tai vaikka pähkinätön filtterin,
+                     joka suodattaa kaikki ei halutut reseptit pois</p>
+
+                <p>Tämä sovellus helpottaa kaikkia niitä, jotka haluaisivat kokeilla uusia reseptejä tai
+                     sitten jos ei vaan keksi mitä tehdä ruuaksi. Tämä sovellus on myös uniikki sen erityisruokavalio filtterin takia. </p>   
+
+                <p id="intro"><i>Resepti Kellari on toiminut vuodesta 2021 asti. Resepti Kellari perustettiin
+                        helpottamaan ihmisten arkea ja rohkaisemaan kokeilemaan uutta.</i></p>
+
+            </div>
+        </section>
+        <footer>
+            <a id="footer"> Copyright @ Resepti Kellari 2021 <br> Reino Anipuro, reino.anipuro04@gmail.com
+            </a>
+        </footer>
+    </main>
+    <script src="skriptit.js"></script>
+</body>
+
+</html>

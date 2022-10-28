@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+
+<head>
+    <!--Tässä head osiossa on otsikko, responsiivisuuden yksi osa, sekä linkit style sivulle sekä fontille.-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Reino Anipuro" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tervetuloa Resepti Kellariin</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <a href="index.html">Resepti Kellari</a>
+        </div>
+        <nav id="hamnav">
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger" />
+            <ul id="hamitems">
+                <!--tässä on lista jossa on linkkejä eri sivustoilleni-->
+                <li><a href=resepti/index.html>Resepti hakukone</a></li>
+                <li><a href="tietoa/index.html">Tietoa meistä</a></li>
+                <li><a href="index.html#footer" onClick="highlight(document.getElementById('footer'));">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section id="hero-banner">
+            <div class="container">
+                <h1>Tervetuloa Resepti Kellarin nettisivuille</h1>
+                <br>
+                <h2>
+                    Näet linkeistä resepti hakukoneen, sekä tietoa Resepti Kellarin ideasta.
+                </h2>
+                <br><br>
+                <a href=resepti/index.html id="nappi">Reseptien hakuun</a>
+                <p id="intro"><i>Resepti Kellari on toiminut vuodesta 2021 asti. Resepti Kellari perustettiin
+                        helpottamaan ihmisten arkea ja rohkaisemaan kokeilemaan uutta.</i></p>
+
+            </div>
+        </section>
+        <footer>
+            <a id="footer"> Copyright @ Resepti Kellari 2021 <br> Reino Anipuro, reino.anipuro04@gmail.com
+            </a>
+        </footer>
+    </main>
+    <script src="skriptit.js"></script>
+</body>
+
+</html>
